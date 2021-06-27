@@ -137,7 +137,7 @@ def main():
 	tk.Label(pw, text="Initial Types").grid(row=1, columnspan=2)
 
 	# SpinBox
-	spinbox1 = tk.Spinbox(pw, from_=0, to=6, command=lambda: check_limit(spinbox1.get(),Cbl,Types_chosen,NTT))
+	spinbox1 = tk.Spinbox(pw, from_=3, to=6, command=lambda: check_limit(spinbox1.get(),Cbl,Types_chosen,NTT))
 	spinbox1.grid(row=0, column=1)
 
 	# CheckButtons
